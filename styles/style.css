@@ -52,10 +52,11 @@ body{
 
 .apresentacao{
 
-    margin: 5%;
+    padding: 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
@@ -99,13 +100,13 @@ body{
 
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
 
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
@@ -137,4 +138,28 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 
+}
+
+@media (max-width: 1200px){
+
+    .cabecalho{
+
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+
+        justify-content: center;
+    }
+
+    .apresentacao{
+
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo{
+
+        width: auto;
+    }
 }
