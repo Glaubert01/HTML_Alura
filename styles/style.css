@@ -61,7 +61,7 @@ body{
 
 .apresentacao__conteudo{
 
-    width: 615px;
+    width: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -120,6 +120,11 @@ body{
 .apresentacao__links__link:hover{
 
     background-color: var(--cor-hover);
+}
+
+.apresentacao__imagem{
+
+    width: 50%;
 }
 
 .rodape{
